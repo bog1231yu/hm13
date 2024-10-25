@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Output</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .boolean {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .phone {
+            color: #e74c3c; 
+            font-weight: bold;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="title">idk </p>
+        
+        <script>
+            let firstName = "გიორგი";
+            let lastName = "ქაცარავა";
+            let age = 25;
+            let email = "giorgi@example.com";
+            let phoneNumber = "+995555123456";
+            let isAdult = true;
+
+            document.write(`<p>First Name: ${firstName}</p>`);
+            document.write(`<p>Last Name: ${lastName}</p>`);
+            document.write(`<p>Age: ${age}</p>`);
+            document.write(`<p>Email: ${email}</p>`);
+            document.write(`<p class="phone">Phone: ${phoneNumber}</p>`);
+            document.write(`<p class="boolean">Adult: ${isAdult}</p>`);
+        </script>
+    </div>
+
+</body>
+</html>
